@@ -22,7 +22,7 @@ double total =0;
      choice = scanner.nextInt();
     	      
 //WHILE LOOP: DONT ALLOW WRONG CHOICE
-     while (choice < 1 || choice > 3) // || means or. it needs one entry to be true{
+     while (choice < 1 || choice > 3){ // || means or. it needs one entry to be true
      System.out.println("Enter 1-3 only: ");
      choice = scanner.nextInt();
      }
