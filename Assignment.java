@@ -6,8 +6,8 @@ public class Assignment {
 	public static void main(String[] args) {
 		// shop sales tracker
 Scanner scanner = new Scanner(System.in);
-double[] sales = new double[100];
-//stores sale of maximum 100 sales
+double[] sales = new double[1000];
+//stores sale of maximum 1000 sales
 int count =0;
 int choice;
 double total =0;
